@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button, Container, Message, Title } from "rbx";
 import {db} from '../utils'
-import {Course} from './Course'
+import {Course} from './Course/Course'
 
 const terms = { F: 'Fall', W: 'Winter', S: 'Spring'};
 
